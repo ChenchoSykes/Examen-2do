@@ -1,0 +1,21 @@
+<web-app>
+
+      <servlet>
+        <servlet-name>Rectangulo</servlet-name>
+        <servlet-class>Servlets.Rectangulo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Rectangulo</servlet-name>
+        <url-pattern>/Rectangulo</url-pattern>
+    </servlet-mapping>
+
+
+      <servlet>
+        <servlet-name>Triangulo</servlet-name>
+        <servlet-class>Servlets.Triangulo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Triangulo</servlet-name>
+        <url-pattern>/Triangulo</url-pattern>
+    </servlet-mapping>
+</web-app>
